@@ -1,6 +1,7 @@
 import { TransactionsTableBody } from "../TransactionsTableBody/TransactionsTableBody";
 import { TransactionsTableHead } from "../TransactionsTableHead/TransactionsTableHead";
 import { TransactionsTableHeader } from "../TransactionsTableHeader/TransactionsTableHeader";
+import { TransactionsTablePagination } from "../TransactionsTablePagination/TransactionsTablePagination";
 import styles from "./transactionsTable.module.scss";
 
 export const TransactionsTable = () => {
@@ -10,6 +11,7 @@ export const TransactionsTable = () => {
             <table>
                 <TransactionsTableHead />
                 <TransactionsTableBody />
+                <TransactionsTablePagination />
             </table>
         </div>
     );
