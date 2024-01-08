@@ -1,0 +1,16 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    background: #1e2640;
+
+    padding: 1.6rem 0.8rem;
+
+    width: 22.4rem;
+    min-height: 100vh;
+
+    .company_name_logo {
+        padding: 0 0.8rem;
+    }
+}

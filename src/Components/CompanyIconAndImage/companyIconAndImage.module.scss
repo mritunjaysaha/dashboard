@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+
+    .logo {
+        height: 4rem;
+        width: 4rem;
+        object-fit: contain;
+    }
+
+    .name_container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+
+        color: #fff;
+
+        .name_p {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        .store_link {
+            color: currentColor;
+            font-size: 1.3rem;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+}
