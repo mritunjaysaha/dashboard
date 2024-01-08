@@ -4,7 +4,7 @@ export const NavbarSearch = () => {
     return (
         <div className={styles.search_container}>
             <img
-                src="/src/assets/icons/Search.svg"
+                src="/assets/icons/Search.svg"
                 alt="search"
                 className={styles.search_icon}
             />

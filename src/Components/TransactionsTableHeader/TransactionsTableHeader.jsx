@@ -14,7 +14,7 @@ export const TransactionsTableHeader = () => {
                 >
                     Sort{" "}
                     <img
-                        src="/src/assets/icons/Sort.svg"
+                        src="/assets/icons/Sort.svg"
                         alt="sort"
                         className={styles.sort_img}
                     />
@@ -23,7 +23,7 @@ export const TransactionsTableHeader = () => {
                     className={`${styles.utils_button} ${styles.utils_download_button}`}
                 >
                     <img
-                        src="/src/assets/icons/Download.svg"
+                        src="/assets/icons/Download.svg"
                         alt="download"
                         className={styles.download_img}
                     />

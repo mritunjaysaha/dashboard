@@ -5,7 +5,7 @@ export const AvailableCredits = ({ credits }) => {
         <div className={styles.credits_container}>
             <div className={styles.credits_img_container}>
                 <img
-                    src="/src/assets/icons/Wallet.svg"
+                    src="/assets/icons/Wallet.svg"
                     alt="wallet"
                     className={styles.credits_img}
                 />

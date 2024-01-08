@@ -17,7 +17,7 @@ export const TransactionsTableHead = () => {
                 <th className={styles.table_head_th}>
                     Order date{" "}
                     <img
-                        src="/src/assets/icons/DownArrowFilled.svg"
+                        src="/assets/icons/DownArrowFilled.svg"
                         alt="arrow"
                         className={styles.th_img}
                     />
@@ -29,7 +29,7 @@ export const TransactionsTableHead = () => {
                 >
                     Transaction fees
                     <img
-                        src="/src/assets/icons/Info.svg"
+                        src="/assets/icons/Info.svg"
                         alt="info"
                         className={styles.th_img}
                     />

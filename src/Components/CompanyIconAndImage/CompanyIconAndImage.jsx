@@ -11,7 +11,7 @@ export const CompanyIconAndImage = ({ imgSrc, name }) => {
             </div>
 
             <img
-                src="/src/assets/icons/DownArrow.svg"
+                src="/assets/icons/DownArrow.svg"
                 className={styles.down_arrow}
             />
         </div>

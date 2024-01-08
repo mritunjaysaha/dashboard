@@ -9,7 +9,7 @@ export const Overview = () => {
                 <button className={styles.dropdown_button}>
                     Last Month
                     <img
-                        src="/src/assets/icons/DownArrowDark.svg"
+                        src="/assets/icons/DownArrowDark.svg"
                         alt="arrow"
                         className={styles.dropdown_button_img}
                     />

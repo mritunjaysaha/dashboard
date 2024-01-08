@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <p className={styles.payments_title}>Payments</p>
                 <p className={styles.text}>
                     <img
-                        src="/src/assets/icons/Question.svg"
+                        src="/assets/icons/Question.svg"
                         className={styles.question_icon}
                     />
                     How it works
@@ -21,11 +21,11 @@ export const Navbar = () => {
             </div>
             <div className={`${styles.nav_div} ${styles.nav_div_utils}`}>
                 <NavbarUtilsButton
-                    icon="/src/assets/icons/Announcements.svg"
+                    icon="/assets/icons/Announcements.svg"
                     name="announcements"
                 />
                 <NavbarUtilsButton
-                    icon="/src/assets/icons/DownArrowFilled.svg"
+                    icon="/assets/icons/DownArrowFilled.svg"
                     name="arrow"
                 />
             </div>

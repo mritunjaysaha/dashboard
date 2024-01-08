@@ -6,7 +6,7 @@ export const TransactionsTablePagination = () => {
             <button
                 className={`${styles.pagination_button} ${styles.previous_button}`}
             >
-                <img src="/src/assets/icons/LeftArrowDark.svg" alt="previous" />
+                <img src="/assets/icons/LeftArrowDark.svg" alt="previous" />
                 Previous
             </button>
             <div className={styles.pagination_pages_container}>
@@ -27,7 +27,7 @@ export const TransactionsTablePagination = () => {
                 className={`${styles.pagination_button} ${styles.next_button}`}
             >
                 Next
-                <img src="/src/assets/icons/RightArrowDark.svg" alt="next" />
+                <img src="/assets/icons/RightArrowDark.svg" alt="next" />
             </button>
         </div>
     );

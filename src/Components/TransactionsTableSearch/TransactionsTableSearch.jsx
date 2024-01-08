@@ -4,7 +4,7 @@ export const TransactionsTableSearch = () => {
     return (
         <div className={styles.transactions_search}>
             <img
-                src="/src/assets/icons/Search.svg"
+                src="/assets/icons/Search.svg"
                 alt="search"
                 className={styles.search_icon}
             />
