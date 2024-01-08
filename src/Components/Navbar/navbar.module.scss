@@ -34,4 +34,11 @@
             font-size: 1.2rem;
         }
     }
+
+    .nav_div_utils {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1.2rem;
+    }
 }

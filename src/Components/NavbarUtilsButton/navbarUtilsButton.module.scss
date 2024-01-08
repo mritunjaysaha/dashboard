@@ -1,0 +1,17 @@
+.navbar_utils_button {
+    display: grid;
+    place-items: center;
+
+    background: #e6e6e6;
+    border-radius: 50%;
+
+    width: 4rem;
+    height: 4rem;
+
+    .button_icon {
+        height: 2rem;
+        width: 2rem;
+
+        object-fit: contain;
+    }
+}

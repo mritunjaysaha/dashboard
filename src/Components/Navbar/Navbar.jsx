@@ -1,4 +1,5 @@
 import { NavbarSearch } from "../NavbarSearch/NavbarSearch";
+import { NavbarUtilsButton } from "../NavbarUtilsButton/NavbarUtilsButton";
 import styles from "./navbar.module.scss";
 
 export const Navbar = () => {
@@ -18,7 +19,16 @@ export const Navbar = () => {
             <div className={styles.nav_div}>
                 <NavbarSearch />
             </div>
-            <div className={styles.nav_div}></div>
+            <div className={`${styles.nav_div} ${styles.nav_div_utils}`}>
+                <NavbarUtilsButton
+                    icon="/src/assets/icons/Announcements.svg"
+                    name="announcements"
+                />
+                <NavbarUtilsButton
+                    icon="/src/assets/icons/DownArrowFilled.svg"
+                    name="arrow"
+                />
+            </div>
         </nav>
     );
 };
