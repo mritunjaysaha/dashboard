@@ -1,0 +1,42 @@
+.credits_container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    border-radius: 0.4rem;
+    background: #353c53;
+
+    padding: 0.6rem 1.2rem;
+
+    .credits_img_container {
+        display: grid;
+        place-items: center;
+
+        border-radius: 0.4rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0.6rem;
+
+        .credits_img {
+            width: 2rem;
+            height: 2rem;
+
+            object-fit: contain;
+        }
+    }
+
+    .credits_info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+
+        .credits_info_title {
+            color: #fff;
+            font-size: 1.3rem;
+            opacity: 0.8;
+        }
+        .credits_info_count {
+            color: #fff;
+            font-weight: 500;
+        }
+    }
+}

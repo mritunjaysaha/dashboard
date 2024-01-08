@@ -3,6 +3,7 @@ import { CompanyIconAndImage } from "../CompanyIconAndImage/CompanyIconAndImage"
 import CompanyLogo from "../../assets/logos/companyLogo.png";
 
 import { SideNavPages } from "../../utils/SideNavPages";
+import { AvailableCredits } from "../AvailableCredits/AvailableCredits";
 import { SidebarNavButton } from "../SidebarNavButton/SidebarNavButton";
 import styles from "./sidebar.module.scss";
 
@@ -22,6 +23,10 @@ export const Sidebar = () => {
                         />
                     );
                 })}
+            </div>
+
+            <div className={styles.credits_container}>
+                <AvailableCredits credits="222.10" />
             </div>
         </section>
     );

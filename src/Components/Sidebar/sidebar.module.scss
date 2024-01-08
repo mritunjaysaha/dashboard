@@ -19,4 +19,11 @@
         flex-direction: column;
         gap: 0.4rem;
     }
+
+    .credits_container {
+        position: absolute;
+        bottom: 1.6rem;
+
+        width: calc(22.4rem - 1.6rem);
+    }
 }
