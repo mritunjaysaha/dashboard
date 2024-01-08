@@ -1,3 +1,4 @@
+import { OverviewCards } from "../OverviewCards/OverviewCards";
 import styles from "./overview.module.scss";
 
 export const Overview = () => {
@@ -13,6 +14,10 @@ export const Overview = () => {
                         className={styles.dropdown_button_img}
                     />
                 </button>
+            </div>
+            <div className={styles.overview_cards_container}>
+                <OverviewCards name="Online orders" value="231" />
+                <OverviewCards name="Amount received" value="₹23,92,312.19" />
             </div>
         </div>
     );

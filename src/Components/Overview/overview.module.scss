@@ -7,24 +7,31 @@
         display: flex;
         justify-content: space-between;
 
-        color: #1a181e;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 500;
+        .overview_head_title {
+            color: #1a181e;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        .dropdown_button {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+
+            border-radius: 0.4rem;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+
+            padding: 0.6rem 1.4rem;
+
+            color: #4d4d4d;
+            font-size: 16px;
+        }
     }
 
-    .dropdown_button {
+    .overview_cards_container {
         display: flex;
-        align-items: center;
-        gap: 0.7rem;
-
-        border-radius: 0.4rem;
-        border: 1px solid #d9d9d9;
-        background: #fff;
-
-        padding: 0.6rem 1.4rem;
-
-        color: #4d4d4d;
-        font-size: 16px;
+        gap: 2rem;
     }
 }
