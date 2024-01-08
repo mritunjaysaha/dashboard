@@ -1,0 +1,52 @@
+.table_header {
+    display: flex;
+    justify-content: space-between;
+
+    .table_search_container {
+        width: 24.8rem;
+    }
+
+    .table_utils_container {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+
+        .utils_button {
+            border-radius: 0.4rem;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+        }
+
+        .utils_sort_button {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+
+            padding: 0.6rem 1.2rem;
+
+            color: #4d4d4d;
+            font-size: 1.6rem;
+            line-height: 24px;
+
+            .sort_img {
+                width: 1.6rem;
+                height: 1.6rem;
+                object-fit: contain;
+            }
+        }
+
+        .utils_download_button {
+            display: grid;
+            place-items: center;
+
+            padding: 0.8rem;
+
+            .download_img {
+                height: 2rem;
+                width: 2rem;
+
+                object-fit: contain;
+            }
+        }
+    }
+}
