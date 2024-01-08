@@ -4,7 +4,7 @@
     .app_main {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: calc(100vw - 22.4rem);
     }
 
     .app_main_section {

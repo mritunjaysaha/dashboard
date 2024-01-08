@@ -1,3 +1,4 @@
+import { TransactionsTableBody } from "../TransactionsTableBody/TransactionsTableBody";
 import { TransactionsTableHead } from "../TransactionsTableHead/TransactionsTableHead";
 import { TransactionsTableHeader } from "../TransactionsTableHeader/TransactionsTableHeader";
 import styles from "./transactionsTable.module.scss";
@@ -8,7 +9,7 @@ export const TransactionsTable = () => {
             <TransactionsTableHeader />
             <table>
                 <TransactionsTableHead />
-                <p>a</p>
+                <TransactionsTableBody />
             </table>
         </div>
     );

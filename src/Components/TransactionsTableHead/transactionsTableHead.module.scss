@@ -12,59 +12,59 @@
         padding: 1rem 1.2rem;
 
         width: 100%;
-    }
 
-    .table_head_th {
-        position: relative;
+        .table_head_th {
+            position: relative;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
 
-        width: 100%;
+            width: 100%;
 
-        text-align: center;
-        color: #4d4d4d;
-        font-size: 1.4rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 2rem;
-
-        &:first-of-type,
-        &:nth-child(2) {
-            justify-content: flex-start;
-        }
-
-        &:last-of-type,
-        &:nth-child(3) {
-            justify-content: flex-end;
-        }
-
-        .th_img {
-            width: 1.4rem;
-            height: 1.4rem;
-
-            object-fit: contain;
-        }
-
-        .transaction_fees_popup {
-            position: absolute;
-            top: 2rem;
-            right: 0;
-
-            border-radius: 0.4rem;
-            background: #4d4d4d;
-
-            padding: 0.4rem 0.8rem;
-            width: 29.4rem;
-
-            text-align: left;
-            color: #fff;
-            font-size: 1.2rem;
+            text-align: center;
+            color: #4d4d4d;
+            font-size: 1.4rem;
             font-style: normal;
-            font-weight: 400;
-            line-height: 1.6rem; /* 133.333% */
+            font-weight: 500;
+            line-height: 2rem;
+
+            &:first-of-type,
+            &:nth-child(2) {
+                justify-content: flex-start;
+            }
+
+            &:last-of-type,
+            &:nth-child(3) {
+                justify-content: flex-end;
+            }
+
+            .th_img {
+                width: 1.4rem;
+                height: 1.4rem;
+
+                object-fit: contain;
+            }
+
+            .transaction_fees_popup {
+                position: absolute;
+                top: 2rem;
+                right: 0;
+
+                border-radius: 0.4rem;
+                background: #4d4d4d;
+
+                padding: 0.4rem 0.8rem;
+                width: 29.4rem;
+
+                text-align: left;
+                color: #fff;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.6rem; /* 133.333% */
+            }
         }
     }
 }
