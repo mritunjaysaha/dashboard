@@ -6,4 +6,14 @@
         flex-direction: column;
         width: 100%;
     }
+
+    .app_main_section {
+        display: flex;
+        flex-direction: column;
+
+        background: #fafafa;
+
+        height: 100%;
+        padding: 3.2rem;
+    }
 }
