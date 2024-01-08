@@ -1,0 +1,29 @@
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    border-radius: 6px;
+    background: #f2f2f2;
+
+    height: 100%;
+
+    padding: 0.9rem 1.6rem;
+
+    .search_icon {
+        height: 1.6rem;
+        width: 1.6rem;
+
+        object-fit: contain;
+    }
+
+    .search_input {
+        color: #808080;
+        font-family: Inter;
+        font-size: 1.5rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

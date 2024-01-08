@@ -1,3 +1,4 @@
+import { NavbarSearch } from "../NavbarSearch/NavbarSearch";
 import styles from "./navbar.module.scss";
 
 export const Navbar = () => {
@@ -14,7 +15,9 @@ export const Navbar = () => {
                 </p>
             </div>
 
-            <div className={styles.nav_div}></div>
+            <div className={styles.nav_div}>
+                <NavbarSearch />
+            </div>
             <div className={styles.nav_div}></div>
         </nav>
     );
